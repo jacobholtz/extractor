@@ -6,6 +6,6 @@ After installing necessary modules with and chmod'ing it with `pip install -r re
 `./extractor.py destination_ip`
 The passwords will be in the access.log file if apache2 is used formatted as a post request.
 
-TODO: clean up chrome_password_extractor.py
-      fix issues with modules not installing
-      maybe build .py file into an executable
+TODO: clean up chrome_password_extractor.py\
+      fix issues with modules not installing\
+      maybe build .py file into an executable\
